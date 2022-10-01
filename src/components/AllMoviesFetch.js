@@ -12,7 +12,7 @@ function AllMoviesFetch(){
 
     useEffect(async() => {
         try {
-            const response = await axios.get('https://infinite-eyrie-76014.herokuapp.com/movies');
+            const response = await axios.get('https://hackthonapp.herokuapp.com/movies');
             console.log(response);
             setData(response.data);
         } catch (error) {
